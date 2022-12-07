@@ -297,5 +297,10 @@ ul.bottomnav {
     max-height: 200px;
   }
 
+  ul.bottomnav {
+      padding: 0px;
+      flex-direction: column;
+      align-items: center;
+    }
 
 }
