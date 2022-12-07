@@ -175,8 +175,8 @@ ul.bottomnav {
 
 @media screen and (max-width: 900px) {
   body {
-    background-color: green;
-    background-image: radial-gradient(whitesmoke, green)
+    /* background-color: green;
+    background-image: radial-gradient(whitesmoke, green) */
   }
 
   header h1 {
