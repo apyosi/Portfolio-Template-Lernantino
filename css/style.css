@@ -29,6 +29,11 @@ header h1 {
   line-height: normal;
   padding: 0 15px 0 5%;
 }
+
+header a {
+  text-decoration: none;
+  color: #31343D;
+}
 header nav {
   padding-right: 5%;
 }
@@ -179,10 +184,6 @@ ul.bottomnav {
     padding: 0 5%
   }
 
-  header a {
-    text-decoration: none;
-    color: #31343D;
-  }
   nav {
     /* display: block; */
     margin: 0 auto;
