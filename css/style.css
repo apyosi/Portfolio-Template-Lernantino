@@ -5,6 +5,8 @@
 }
 html {
   scroll-behavior: smooth;
+  height: auto;
+
 }
 
 
@@ -53,9 +55,17 @@ ul.topnav li {
   font-size: 24px;
   text-decoration: none;
   border-bottom: 4px solid #92CCCD;
-  padding: 0 10px 5px 10px;
-
+  padding: 5px 10px;
 }
+
+.topnav a:hover,
+.bottomnav a:hover {
+    -webkit-box-shadow: 0 0 1rem rgba(0,0,0,.6);
+    box-shadow: 0 0 1rem rgba(0,0,0,.6);
+    background-color: rgba(255,255,255,.25);
+}
+
+
 
 .hero-banner {
   /* background-image: url("../images/02-hero-bg.jpg"); */
@@ -112,6 +122,11 @@ h2 {
   gap: 20px;
 }
 
+#portfolio a {
+  color: #31343D;
+  text-decoration: none;
+}
+
 .p0 {
   grid-area: p0;
 }
@@ -131,12 +146,19 @@ h2 {
 figure {
   width: 100%;
   position: relative;
+  /* border: 5px solid #92CCCD ; */
 }
 
+img:hover,
+figcaption:hover {
+  /* border: 5px solid #31343D; */
+  filter: grayscale(0%);
+}
 img {
   border: 5px solid #92CCCD ;
   object-fit: cover;
   width: 100%;
+  filter: grayscale(50%);
 }
 
 figcaption {
@@ -179,32 +201,50 @@ ul.bottomnav {
     background-image: radial-gradient(whitesmoke, green) */
   }
 
-  header h1 {
-    margin: 0 auto;
-    padding: 0 5%
+  header {
+    background-color: #31343D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
   }
 
+  header h1 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  header nav {
+    padding-right: 0;
+  }
   nav {
     /* display: block; */
-    margin: 0 auto;
-  }
-  ul.topnav{
+    width: 100%;
     /* margin: 0 auto; */
-    /* display: flex; */
+    display: flex;
+    justify-content: space-between
+  }
+  ul.topnav {
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    display: flex;
     /* flex-wrap: nowrap; */
-    justify-content: center
+    justify-content: space-evenly
   }
 
   .topnav a {
     color: #92CCCD;
     font-size: 18px;
     border-bottom: 3px solid #92CCCD;
-    padding: 0 4px 0px 4px;
-  /*  */
+    padding: 0 5px 0px 5px;
+    display: flex;
+    justify-content: center
   }
 
   .container {
-    width: 100%;
+    width: 95%;
     /* margin: 40px auto 0px auto; */
     display: grid;
     grid-template-columns: 100%;
