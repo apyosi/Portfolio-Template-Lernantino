@@ -190,6 +190,14 @@ ul.bottomnav {
     justify-content: center
   }
 
+  .topnav a {
+    color: #92CCCD;
+    font-size: 18px;
+    border-bottom: 3px solid #92CCCD;
+    padding: 0 4px 0px 4px;
+  /*  */
+  }
+
   .container {
     width: 100%;
     /* margin: 40px auto 0px auto; */
