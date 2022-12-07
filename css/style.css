@@ -1,12 +1,30 @@
+/* || VARIABLES */
+:root {
+  /* COLORS */
+  --HEADER-BGCOLOR: #31343D;
+  --HEADER-COLOR: #92CCCD;
+  --HEADER-H1-BGCOLOR: #92CCCD;
+  --HEADER-H1-COLOR: #31343D;
+  --HEADER-LINK-COLOR: #31343D;
+
+  /* --NAV-BGCOLOR
+  --NAV-COLOR
+  --HERO-BGCOLOR: 
+  --HERO-COLOR:
+  --BORDER-COLOR-LIGHT:
+  --BORDER-COLOR-DARK: */
+
+}
+
+
+
 * {
     	/* outline: 1px solid red; */
     	/* border: 1px solid green; */
-
 }
 html {
   scroll-behavior: smooth;
   height: auto;
-
 }
 
 
@@ -16,7 +34,7 @@ body {
 }
 
 header {
-  background-color: #31343D;
+  background-color: var(--HEADER-BGCOLOR);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,8 +43,8 @@ header {
 }
 
 header h1 {
-  background-color: #92CCCD;
-  color: #31343D;
+  background-color: var(--HEADER-H1-BGCOLOR);
+  color: var(--HEADER-H1-COLOR);
   font-size: 55px;
   line-height: normal;
   padding: 0 15px 0 5%;
@@ -256,7 +274,7 @@ ul.bottomnav {
     /* flex-direction: column; */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-areas: 
     "p0"
     "p1"
@@ -273,6 +291,10 @@ ul.bottomnav {
   }
   h2 {
     text-align: center;
+  }
+
+  img {
+    max-height: 200px;
   }
 
 
