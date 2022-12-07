@@ -1,13 +1,12 @@
-# horiseon-accessibility-refactor
+# Portfolio Template - Lernantino
 
 ## Description 
-Task to reate portfolio template page with placeholder images and names based only on gif animation.
+Task to create portfolio template page with placeholder images and names based only on a gif animation.
 
-## Requirenment - Mock-Up  
+## Requirement - Mock-Up    
 The following animation shows the required web application’s appearance and functionality
 
-![screenshot](/assets/requirenment/01-css-challenge-demo.gif/)
-![challenge-demo](/assets/requirenment/01-css-challenge-demo.gif/)
+![challenge-demo](/assets/requirement/01-css-challenge-demo.gif/)
 
 
 ## Acceptance Criteria
