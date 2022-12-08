@@ -279,7 +279,7 @@ ul.bottomNav {
     display: flex;
     justify-content: space-between;
   }
-  topNav {
+  .topNav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
