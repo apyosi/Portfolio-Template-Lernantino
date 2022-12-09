@@ -157,6 +157,13 @@ h2 {
   font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 900;
 }
+.profile {
+  width: 20%;
+  margin: 0 2% 1% 0;
+  border: 5px solid var(--IMAGE-BORDER);
+  float: left;
+
+}
 
 /* Second grid - portfolio grid for work section  */
 #portfolio {
@@ -199,7 +206,7 @@ figure {
   border: 5px solid var(--IMAGE-BORDER);
 }
 
-img {
+#portfolio img {
   /* border: 5px solid var(--IMAGE-BORDER); */
   object-fit: cover;
   width: 100%;
@@ -208,8 +215,8 @@ img {
   opacity: 70%;
 }
 
-img:hover,
-figure:hover {
+#portfolio img:hover,
+#portfolio figure:hover {
   filter: sepia(0%);
   /* filter: grayscale(0%); */
   opacity: 100%;
@@ -327,8 +334,8 @@ ul.bottomNav {
     text-align: center;
   }
 
-  img {
-    max-height: 200px;
+  #portfolio img {
+    height: 190px;
   }
 
   ul.bottomNav {
